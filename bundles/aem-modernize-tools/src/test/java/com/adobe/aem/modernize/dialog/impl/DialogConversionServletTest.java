@@ -75,7 +75,8 @@ public class DialogConversionServletTest {
             RULES_PATH + "/rewriteProperties",
             RULES_PATH + "/nested1/rule1",
             RULES_PATH + "/nested1/rule2",
-            RULES_PATH + "/nested2/rule1"));
+            RULES_PATH + "/nested2/rule1",
+            RULES_PATH + "/setSelected"));
 
         Class[] cArgs = new Class[1];
         cArgs[0] = ResourceResolver.class;
